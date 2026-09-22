@@ -79,7 +79,7 @@ Download link:https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198833 and p
 ## 🛠️ Requirements
 
 ```bash
-pip install scanpy scrublet numpy pandas matplotlib igraph leidenalg
+pip install -r requirements.txt
 ```
 
 **Enrichment / regulatory analyses** were performed using the Ma'ayan Lab web tools:
