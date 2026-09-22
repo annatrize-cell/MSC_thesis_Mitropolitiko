@@ -18,7 +18,8 @@ This project re-analyzes the single-cell RNA sequencing (scRNA-seq) dataset **GS
 ## 📥 Data Availability
 
 > **[The raw data are publicly available.
-Download link:https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198833 and put in destination file "../data/GSE198833_RAW".
+Download link:https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198833 and put it in destination file "../data/GSE198833_RAW".
+> 
 > Next run the procedure "/scripts/Data_Overview_2.ipynd" to create combined_heart_failure_adata.h5ad to use in final analysis.
 ]**
 
