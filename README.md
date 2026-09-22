@@ -1,9 +1,9 @@
-# MSC_thesis_Mitropolitikoω
+# MSC_thesis_Mitropolitiko
 # 🫀 scRNA-seq Analysis of CD34⁺ Cells in Myocardial Fibrosis
 
 > Independent re-analysis of single-cell RNA sequencing data investigating the role of **CD34⁺ fibroblasts** in myocardial fibrosis during heart failure.
 
-![Poster](images/Poster_Εργασιας.png)
+![Poster](images/Poster-Project.png)
 
 ---
 
@@ -19,8 +19,7 @@ This project re-analyzes the single-cell RNA sequencing (scRNA-seq) dataset **GS
 
 > **[The raw data are publicly available.
 Download link:https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198833 and put in destination file "../data/GSE198833_RAW".Next run the procedure "/scripts/Data_Overview_2.ipynd" to create combined_heart_failure_adata.h5ad that use in the final analysis.
-    
-     **]**
+]**
 
 
 
@@ -106,9 +105,9 @@ pip install scanpy scrublet numpy pandas matplotlib igraph leidenalg
 ## 📂 Repository Structure
 
 ```
-├── scRNAseq_CD34_analysis.ipynb   # Main analysis notebook
+├── script                          # Clear-Merge data and Main analysis notebook
+├── images                          #Poster,Grapghs
 ├── requirements.txt                # Python dependencies
-├── Poster_Εργασιας.png             # Project summary poster
 └── README.md
 ```
 
